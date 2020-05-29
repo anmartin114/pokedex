@@ -35,7 +35,7 @@ const showPokemon = (pokemon) => {
         <span class="card--id">#${pokemon.id}</span>
         <img class="card--image" src=${pokemon.image} alt=${pokemon.name} />
         <h1 class="card--name">${pokemon.name}</h1>
-        <span class="card--details">${pokemon.type}</span>
+        <span class="card--type">${pokemon.type}</span>
     </div>
 `;
     container.innerHTML += output;
